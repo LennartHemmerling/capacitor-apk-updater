@@ -1,6 +1,6 @@
 # capacitor-apk-updater
 
-With a url pointing to an apk file, this plugin downloads the apk and initiates the installation.
+Allows installation of apk files from remote url.
 
 ## Install
 
