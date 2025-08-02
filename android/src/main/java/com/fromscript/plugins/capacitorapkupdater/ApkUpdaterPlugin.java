@@ -29,15 +29,6 @@ public class ApkUpdaterPlugin extends Plugin {
     static final String INSTALL = "install";
 
     @PluginMethod
-    public void echo(PluginCall call) {
-        String value = call.getString("value");
-
-        JSObject ret = new JSObject();
-        ret.put("value", implementation.echo(value));
-        call.resolve(ret);
-    }
-
-    @PluginMethod
     public void downloadAndInstall(PluginCall call) {
         String url = call.getString("url");
 

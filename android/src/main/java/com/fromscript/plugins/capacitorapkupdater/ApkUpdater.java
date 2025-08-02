@@ -26,12 +26,6 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class ApkUpdater {
-
-    public String echo(String value) {
-        Logger.info("Echo", value);
-        return value;
-    }
-
     public void downloadAndInstall(Plugin apkUpdaterPlugin, PluginCall call, String url) {
         apkUpdaterPlugin.getActivity().runOnUiThread(() -> new Thread(() -> {
             try {

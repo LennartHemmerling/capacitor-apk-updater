@@ -1,6 +1,4 @@
 export interface ApkUpdaterPlugin {
-  echo(options: { value: string }): Promise<{ value: string }>;
-
   downloadAndInstall(options: { url: string }): Promise<void>;
 
   checkPermissions(): Promise<{
