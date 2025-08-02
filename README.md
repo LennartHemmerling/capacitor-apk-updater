@@ -2,6 +2,12 @@
 
 Allows installation of apk files from remote url.
 
+This is an early version of this package and the api might change.
+
+## Permissions
+
+Uses permissions to install apk files (and to use the internet).
+
 ## Install
 
 ```bash
